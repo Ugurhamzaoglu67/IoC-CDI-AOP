@@ -84,7 +84,7 @@ Bazen nesne nerde yaratılıyorsa, oraya uyum sağmalası gerekiyor. Bunada depe
 			-> 3 tane işlem vardır. başlangıç, sürdürme, bitirme.
 
 
-___________________________________________ OOOOOOO______________________________________________________
+__________________
 
  IoC(Inversion Of Control) ->  1) Interface yapılıyor ve gövdesiz metod konuyor.
 				2) Onu Gerçekleştiren bir class var
@@ -117,8 +117,7 @@ Not: eğerki Bean içinde @Inject @Bizim_Anatasyonumuz varsa, bu default olanı 
 1 tane default olabilir ve birden fazlada option olabilir.
 
 Not2 : @Bizim_Anatasyonumuz olan yerde Enum tanımlarsak ve value(); dersek. ona tip vermiş oluruz
-____________________________________________ OOOOOOOOOOOOOOOO______________________
-
+__________________
 1- AOP : Bir nesneyle onu çağıran nesnenin arasına girmek.
 Neden yapılıyor ?:	Bütün sınıfların loglanması lazım veya Güvenlik koyulması lazım gibi.
 Sadece 1 özelliğini bir yere koyuyoruz.
