@@ -1,7 +1,7 @@
 # IoC-CDI-AOP
 IoC, CDI, inversion, @ Named, @ Produces, @ Inject, @ RequestScoped ,@ Alternative,  @ ConversationScoped, @ SessionScoped @ ApplicationScoped,  @ Dependent, @ Default, Qualifier, @ MyCombinedBinding, Interceptor, Multiple Interceptor,@ Decorator,@ MyEventQualifier, Event&lt;>, Qualifier Literal
 
-Önder Teker - Spring Eğitiminden Çıkardığım Notlar :
+# Önder Teker - Spring Eğitiminden Tuttuğum Notlar :
 
 1- http://download.jboss.org/jbosstools/photon/stable/updates/
 
