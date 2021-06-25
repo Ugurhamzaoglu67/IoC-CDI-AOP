@@ -25,5 +25,10 @@
         	<class>com.godoro.cditest.alternative.MyChoiceImplyTwo</class>
         </alternatives>
         
+        <interceptors>
+        	<class>com.godoro.cditest.interceptor.MyTraceInterceptor</class>
+        	<class>com.godoro.cditest.interceptor.MyCountInterceptorAscending</class>
+        	<class>com.godoro.cditest.interceptor.MyCountInterceptorDescending</class>
+        </interceptors>       
         
 </beans>
