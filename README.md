@@ -156,6 +156,8 @@ Evet ve bir class, hem loglama, hem güvenlikle ilgili bir şey yapabilir.
 
 6- interceptor'lar pek iş mantığına girmezler. GÜvenlink, loglama, Genel Aspec olaylara bakıyorlar
 
+![interceptor nasıl davranır](https://user-images.githubusercontent.com/13710309/123488807-54ca4280-d619-11eb-8eef-9052d8173cff.PNG)
+
 
 7- Decorator-> Yol kesme becerisi yok. Araya girer.
 *Decorator'da IoC gibi çalışır. Interface var, onun implementasyonu var.
@@ -182,7 +184,7 @@ abstract public class MyActualDecorator implements MyActualSpec {
 <decorator>
 	<class>com.godoro.cditest.decorator.MyActualDecorator</class>
 </decorators>
-
+![decorator nasıl davranır](https://user-images.githubusercontent.com/13710309/123488804-53991580-d619-11eb-8896-a917857afffc.PNG)
 ___________________________
 
 8- Stereotype ->Bütün anatasyonları tek bir anatasyon şeklinde yaz.
