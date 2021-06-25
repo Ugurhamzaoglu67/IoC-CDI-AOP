@@ -29,6 +29,10 @@
         	<class>com.godoro.cditest.interceptor.MyTraceInterceptor</class>
         	<class>com.godoro.cditest.interceptor.MyCountInterceptorAscending</class>
         	<class>com.godoro.cditest.interceptor.MyCountInterceptorDescending</class>    	
-        </interceptors>       
+        </interceptors>  
+        
+        <decorators>
+        	<class>com.godoro.cditest.decorator.MyActualDecorator</class>
+        </decorators>     
         
 </beans>
